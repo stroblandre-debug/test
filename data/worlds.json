@@ -1,0 +1,233 @@
+[
+  {
+    "id": 1,
+    "act": 1,
+    "title": "Der Garten zwischen den Welten",
+    "status": "playable",
+    "scene": "res://worlds/garden.tscn"
+  },
+  {
+    "id": 2,
+    "act": 1,
+    "title": "Die Stadt der Schlafenden",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 3,
+    "act": 1,
+    "title": "Der silberne Mondwald",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 4,
+    "act": 1,
+    "title": "Das Archiv der ungelebten Leben",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 5,
+    "act": 1,
+    "title": "Das Meer ohne Himmel",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 6,
+    "act": 1,
+    "title": "Die Wüste der zwei Sonnen",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 7,
+    "act": 1,
+    "title": "Der Tempel der Masken",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 8,
+    "act": 1,
+    "title": "",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 9,
+    "act": 1,
+    "title": "",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 10,
+    "act": 1,
+    "title": "",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 11,
+    "act": 1,
+    "title": "",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 12,
+    "act": 2,
+    "title": "",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 13,
+    "act": 2,
+    "title": "",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 14,
+    "act": 2,
+    "title": "",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 15,
+    "act": 2,
+    "title": "",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 16,
+    "act": 2,
+    "title": "",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 17,
+    "act": 2,
+    "title": "Das Tal der erloschenen Sterne",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 18,
+    "act": 2,
+    "title": "",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 19,
+    "act": 2,
+    "title": "",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 20,
+    "act": 2,
+    "title": "",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 21,
+    "act": 2,
+    "title": "",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 22,
+    "act": 2,
+    "title": "",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 23,
+    "act": 3,
+    "title": "",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 24,
+    "act": 3,
+    "title": "",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 25,
+    "act": 3,
+    "title": "",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 26,
+    "act": 3,
+    "title": "",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 27,
+    "act": 3,
+    "title": "",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 28,
+    "act": 3,
+    "title": "",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 29,
+    "act": 3,
+    "title": "",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 30,
+    "act": 3,
+    "title": "",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 31,
+    "act": 3,
+    "title": "",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 32,
+    "act": 3,
+    "title": "",
+    "status": "planned",
+    "scene": ""
+  },
+  {
+    "id": 33,
+    "act": 3,
+    "title": "",
+    "status": "planned",
+    "scene": ""
+  }
+]
