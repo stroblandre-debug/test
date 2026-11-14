@@ -1,0 +1,40 @@
+THE VEIL OF THE ÆON – PROTOTYP 0.2
+
+STARTEN AUF DEINEM ANDROID-HANDY:
+1. Das neue ZIP in einen eigenen Projektordner importieren.
+2. Godot 4.7 verwenden und project.godot öffnen.
+3. „Projekt ausführen“ / ▶ tippen.
+4. Handy im Querformat halten und „Neue Reise beginnen“ wählen.
+
+NEU:
+- Eigenständiger Startbildschirm mit Erklärung bei bestimmten Startfehlern.
+- Unter „Bild & Ton“ kannst du die Welt heller stellen.
+- Welt 1 liegt als eigene Szene vor; weitere Welten können ergänzt werden.
+- Alte Spielstände aus Version 0.1 werden übernommen und vor der Umwandlung gesichert.
+- Ein Weltenplan ist enthalten. Spielbar bleibt zunächst der Garten, Welt 1.
+
+WENN ES WIEDER SCHWARZ IST:
+1. Im Godot-Dateibaum scenes/bildtest.tscn öffnen.
+2. „Aktuelle Szene ausführen“ / F6 starten.
+3. Sind die drei Farbfelder und das helle Quadrat sichtbar?
+4. Falls ja: „Startbericht anzeigen“ öffnen und ein Bildschirmfoto schicken.
+5. Falls nein: mitteilen, ob auch der Editor schwarz ist, und die vollständige
+   Godot-Version sowie gegebenenfalls die erste rote Fehlermeldung schicken.
+
+Der Fehler auf deinem Handy konnte hier noch nicht nachgestellt werden.
+Die neue Fassung wurde mit Godot 4.7 auf Linux geprüft.
+Ausführliche Anleitung: docs/SCHWARZER_BILDSCHIRM.md
+
+IM SPIEL:
+Zum hell gekleideten Hüter links oberhalb des Lagerfeuers gehen.
+Mit AKTION sprechen. Danach öffnet SCHLEIER die verborgene Welt.
+Die drei goldenen Punkte auf der Karte führen zu den Siegeln.
+
+PC: WASD = Bewegen; J/Leertaste = Schlag; E = Aktion; V = Schleier; Esc = Pause.
+
+GITHUB:
+Das Projekt liegt auf https://github.com/stroblandre-debug/test.
+Über „Code → Download ZIP“ kannst du den aktuellen Stand herunterladen.
+Die vorbereitete GitHub-Prüfung verwendet jetzt Godot 4.7.
+
+Das ZIP ist ein Godot-Projekt und keine APK.

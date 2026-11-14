@@ -1,0 +1,34 @@
+; Godot 4.7 project. Import this file, then press Play.
+config_version=5
+
+[application]
+config/name="The Veil of the Æon"
+config/description="Prototyp 0.2 · Welt 1 · gemeinsame Grundlage für die Reise"
+run/main_scene="res://scenes/startup.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[display]
+window/size/viewport_width=1152
+window/size/viewport_height=648
+window/size/window_width_override=1152
+window/size/window_height_override=648
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=0
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.025, 0.05, 0.06, 1)
+textures/default_filters/use_nearest_mipmap_filter=false
+textures/canvas_textures/default_texture_filter=0
+viewport/hdr_2d=false
+renderer/rendering_method.web="gl_compatibility"
+
+[input_devices]
+pointing/emulate_touch_from_mouse=false
+pointing/emulate_mouse_from_touch=false
+
+[audio]
+driver/enable_input=false

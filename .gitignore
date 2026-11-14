@@ -1,0 +1,10 @@
+.godot/
+build/
+dist/
+*.tmp
+*.log
+*.apk
+*.aab
+*.keystore
+export_credentials.cfg
+.DS_Store
