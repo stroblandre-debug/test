@@ -1,0 +1,39 @@
+name: Godot project checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GODOT_VERSION: "4.7"
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install the official Godot editor
+        shell: bash
+        run: |
+          set -euo pipefail
+          archive="Godot_v${GODOT_VERSION}-stable_linux.x86_64.zip"
+          release="https://github.com/godotengine/godot-builds/releases/download/${GODOT_VERSION}-stable"
+          curl --fail --location --retry 3 "${release}/${archive}" --output "${RUNNER_TEMP}/${archive}"
+          unzip -q "${RUNNER_TEMP}/${archive}" -d "${RUNNER_TEMP}/godot-engine"
+          mv "${RUNNER_TEMP}/godot-engine/Godot_v${GODOT_VERSION}-stable_linux.x86_64" "${RUNNER_TEMP}/godot-engine/godot"
+          chmod +x "${RUNNER_TEMP}/godot-engine/godot"
+          echo "${RUNNER_TEMP}/godot-engine" >> "${GITHUB_PATH}"
+      - name: Import, exercise gameplay, and check startup
+        run: python3 tests/check_project.py
+      - name: Package the source project
+        run: python3 tools/package_source.py
+      - name: Attach the Godot source ZIP
+        uses: actions/upload-artifact@v4
+        with:
+          name: The-Veil-of-the-Aeon-Godot-Source
+          path: dist/*.zip
+          if-no-files-found: error
